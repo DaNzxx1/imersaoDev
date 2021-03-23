@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 700px;
+    background-image: url(https://static.poder360.com.br/2020/07/Reias-Dinheiro-Cedulas-103-868x644.jpg);
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 1 auto 2px;
+    text-shadow: 1px 1px 30px yellow;
+  }
+  
+  .page-subtitle, .page-subtitle2 {
+    color: #ffffff;
+    margin-top: 5px;
+    text-shadow: 1px 1px 9px green;
+  }
+  
+  .quest {
+    box-shadow: 0px 0px 7px #6959CD;
+  }
+  
+  #result {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-shadow: 1px 1px 5px greenyellow;
+  }
