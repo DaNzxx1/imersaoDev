@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mini Calculadora</h1>
+      <div class="numbers">
+        <input type="number" placeholder="1º Número:" id="num1">
+        <br><br>
+        <input type="number" placeholder="2º Número:" id="num2">
+        <br><br><br>
+      </div>
+      <div class="operators">
+        <button id="divi" value="divi" onclick="Operacao('divi')">/</button>
+        <button id="soma" value="soma" onclick="Operacao('soma')">+</button>
+        <button id="subi" value="subi" onclick="Operacao('subi')">-</button>
+        <button id="mult" value="mult" onclick="Operacao('mult')">*</button>
+      </div>
+      <h2 id="result"></h2>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    background-image: linear-gradient(45deg, deepskyblue, slateblue)
+  }
+  
+  h1 {
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 0px;;
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 50px 50px 50px;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+  }
+  
+  #num1, #num2 {
+    padding: 10px 60px 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 20px;
+  }
+  
+  .operators {
+    text-align: center;
+  }
+  
+  #divi, #soma, #subi, #mult {
+    background-color: white;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+  }
+  
