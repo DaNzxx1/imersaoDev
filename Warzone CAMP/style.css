@@ -1,0 +1,79 @@
+* {text-align: center;}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/warzone/social/warzone-s2-meta.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 50px;
+  color: orange;
+  text-shadow: 1px -1px 5px black, -1px 1px 5px black;
+}
+
+table {
+  border: 2px solid orange;
+  border-collapse: separate;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 10px;
+}
+
+th, tr, td {
+  padding: 10px;
+  color: white;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 3px 15px 3px 15px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border-color: orange;
+  border-style: solid;
+  text-shadow: 0px 0px 5px black;
+}
+
+button:hover {
+  border-style: solid;
+  background-color: gray;
+  color: white;
+	border-style: solid;
+  border-color: white;
+  text-shadow: 0px 0px 4px black;
+}
+
+input {
+  font-size: 20px;
+  padding: 0px 0px 0px 0px;
+  width: 150px;
+  padding: 2px 10px 2px 10px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: orange;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none; 
+}
+
+#novoTime {
+  margin-top: 50px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  width: 230px;
+}
+
+#addTeam {
+  width: 300px;
+  height: 70px;
+  font-size: 35px;
+  text-shadow: 0px 0px 5px black;
+}
