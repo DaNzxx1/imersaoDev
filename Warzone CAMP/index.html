@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Tabela Warzone CAMP</title>
+  </head>
+  <body>
+    <h1>Campeonato Warzone</h1>
+    <div class="container">
+      <table style="width: 70% !important;margin: auto;">
+        <thead>
+          <tr>
+            <th>Team</th>
+            <th>Wins</th>
+            <th>Kills</th>
+            <th>Points</th>
+            <th>Victory</th>
+            <th>Nº Kills</th>
+            <th>#Warzone</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+
+        </tbody>
+      </table>
+      <input type="text" id="novoTime" placeholder="Nome do Time"/> <br><br>
+      <button onclick="addTeam()" id="addTeam">Adicionar Time</button>
+    </div>
+  </body>
+</html>
