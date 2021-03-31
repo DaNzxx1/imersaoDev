@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Teste de Sorte</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="page-title">Gun Fight</h1>
+
+        <button onclick="sortearArma()" id="btnSortear">Sortear Arma</button>
+        <button onclick="resetar()" id="btnResetar" disabled="false">Resetar</button>
+
+        <form id="form">
+          <h2>Escolha como atacar</h2>
+          <div class="opcoes" id="opcoes"></div>
+            
+          <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+          
+          <p id="jogador"></p>
+          <img id="imgJogador" src="">
+          <p id="maquina"></p>
+          <img id="imgMaquina" src="">
+          
+        </form>
+    </div>
+</body>
+</html>
