@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-image: url('https://external-preview.redd.it/jkULxyytx5tjSpg0isqzo7Ol18HCKWKGqJpPSKjaFHw.png?width=960&crop=smart&auto=webp&s=8de0fd5eb94aa4507008076d47b5b50cb3f4ea09');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+.page-title { 
+  color: #ffffff;
+  margin: 5px 0;
+  font-size: 60px;
+  text-shadow: 1px -1px 4px red, -1px 1px 4px red;
+}
+
+button {
+  padding: .8rem 1.5rem;
+  margin: 20px 10px 10px 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.3rem;
+  text-shadow: 0px 0px 2px grey;
+}
+
+p {
+  font-size: 25px;
+  color: white;
+  text-shadow: 0px 0px 2px green;
+}
+
+h2 {
+  color: white;
+  text-shadow: 0px 0px 5px red;
+}
+
+.opcoes {
+  color: white;
+}
